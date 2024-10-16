@@ -1,0 +1,108 @@
+body {
+    /* Proportions */
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url("../media/Comfortaa.ttf");
+}
+
+    .div1 {
+        /* Background settings */
+        background-color: #DA70D6;
+
+        /* Display settings */
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        /* Proportions */
+        height: 90vh;
+        width: 100vw;
+    }
+
+        .div2 {
+            /* Background settings */
+            background-color: #FDFDFD;
+
+            /* Border settings */
+            border-radius: 10%;
+
+            /* Font settings */
+            font-family: Comfortaa;
+
+            /* Proportions */
+            height: 51vh;
+            margin: 0;
+            padding: 2vh 2vw;
+            width: 26vw;
+        }
+
+            .div2 h1 {
+                /* Font settings */
+                text-align: center;
+
+                /* Proportions */
+                margin-bottom: 4vh;
+            }
+
+            .div2 .form-text {padding-right: 2vw;}
+
+                .div2 .input-text {
+                    /* Font settings */
+                    font-family: Comfortaa;
+                    font-size: 90%;
+
+                    /* Proportions */
+                    margin-top: -2vh;
+                    width: 100%;
+                }
+
+            .div2 .form-submit {
+                /* Display settings */
+                justify-content: center;
+                display: flex;
+
+                /* Proportions */
+                margin-top: 10vh;
+            }
+
+                .div2 .input-submit {
+                    /* Background settings */
+                    background-color: rgba(0, 0, 0, 0);
+
+                    /* Border settings */
+                    border: 2px solid #000000;
+                    border-radius: 2%;
+
+                    /* Font settings */
+                    font-family: Comfortaa;
+                    font-weight: bold;
+
+                    /* Proportions */
+                    padding: 1vh 1vw;
+                }
+            
+            .div2 a {
+                /* Font settings */
+                font-size: 80%;
+                text-align: right;
+            }
+
+            .div2 .input-submit {
+                /* Background settings */
+                background-color: rgba(0, 0, 0, 0);
+
+                /* Border settings */
+                border: 2px solid #000000;
+                border-radius: 20px;
+
+                /* Font settings */
+                font-family: Comfortaa;
+                font-weight: bold;
+
+                /* Proportions */
+                padding: 1vh 1vw;
+            }
