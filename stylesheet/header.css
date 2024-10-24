@@ -1,0 +1,149 @@
+.header {
+    /* Border settings */
+    border-bottom: 1vh solid #CECECE;
+
+    /* Display settings */
+    display: flex;
+
+    /* Proportions */
+    height: 9vh;
+    margin: 0 1vw;
+    padding: 0;
+    width: 98vw;
+}
+
+.header .header-1 {
+    /* Display settings */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    /* Proportions */
+    height: 9vh;
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+}
+
+.header .header-1 img {
+    /* Proportions */
+    max-height: 6vh;
+    margin: 0;
+    padding: 0;
+    max-width: 20vw;
+}
+
+.header .header-2 {
+    /* Proportions */
+    height: 9vh;
+    margin: 0;
+    padding: 0;
+    width: 53vw;
+}
+
+.header .header-3 {
+    /* Display settings */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Proportions */
+    height: 9vh;
+    margin: 0 0 0 5vw;
+    padding: 0;
+    width: 20vw;
+}
+
+.header .header-3 button {
+    /* Border settings */
+    border: 2px solid #9932CC;
+    border-radius: 10px;
+
+    /* Font settings */
+    font-family: ArialRounded;
+    font-size: 80%;
+
+    /* Proportions */
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+    width: 8vw;
+}
+
+.header .header-3 button:hover {
+    cursor: pointer;
+}
+
+.header .header-3 .login {
+    /* Background settings */
+    background-color: rgba(0, 0, 0, 0);
+
+    /* Font settings */
+    color: #9932CC;
+}
+
+.header .header-3 .register {
+    /* Background settings */
+    background-color: #9932CC;
+    
+    /* Border settings */
+    border: 2px solid #9932CC;
+    border-radius: 10px;
+
+    /* Font settings */
+    color: #FFFFFF;
+}
+
+.header .header-3 span {
+    /* Proportions */
+    height: 1vh;
+    margin: 0;
+    padding: 0;
+    width: 1vw;
+}
+
+.header .header-4 {
+    /* Display settings */
+    display: flex;
+
+    /* Proportions */
+    height: 9vh;
+    margin: 0;
+    padding: 0;
+    width: 25vw;
+}
+
+.header .header-4-1 {
+    /* Proportions */
+    height: 8vh;
+    margin: 0 0 1vh 0;
+    padding: 0;
+    width: 5vw;
+}
+
+.header .header-4-1 img {
+    /* Proportions */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.header a {text-decoration: none;}
+
+.header .header-4-2 {
+    /* Display settings */
+    display: flex;
+    align-items: end;
+    
+    /* Font settings */
+    color: #000000;
+    font-family: ArialRounded;
+    font-size: 120%;
+    
+    /* Proportions */
+    height: 7vh;
+    margin: 0;
+    padding: 0 2vh 0 0.5vw;
+    width: 19.5vw;
+}

@@ -1,108 +1,117 @@
 body {
-    /* Proportions */
+    background-color: #9932CC;
     margin: 0;
     padding: 0;
 }
 
-@font-face {
-    font-family: Comfortaa;
-    src: url("../media/Comfortaa.ttf");
+.header {
+    /* Display settings */
+    align-items: center;
+    display: flex;
+
+    /* Proportions */
+    height: 10vh;
+    margin: 0;
+    padding: 0 2vw;
+    width: 96vw;
 }
 
-    .div1 {
-        /* Background settings */
-        background-color: #DA70D6;
+.header a {
+    /* Font settings */
+    color: #FFFFFF;
+    font-size: 200%;
+    text-decoration: none;
+}
 
-        /* Display settings */
-        align-items: center;
-        display: flex;
-        justify-content: center;
+.content {
+    /* Display settings */
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
-        /* Proportions */
-        height: 90vh;
-        width: 100vw;
-    }
+    /* Proportions */
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
 
-        .div2 {
-            /* Background settings */
-            background-color: #FDFDFD;
+.content form {
+    /* Background settings */
+    background-color: #FFFFFF;
 
-            /* Border settings */
-            border-radius: 10%;
+    /* Border settings */
+    border-radius: 20px;
+    height: 53vh;
+    padding: 1vh 1vw;
+    margin: 0;
+    width: 33vw;
+}
 
-            /* Font settings */
-            font-family: Comfortaa;
+.content form h1 {
+    /* Font settings */
+    font-family: ArialRounded;
+    text-align: center;
+}
 
-            /* Proportions */
-            height: 51vh;
-            margin: 0;
-            padding: 2vh 2vw;
-            width: 26vw;
-        }
+.content form p {
+    /* Font settings */
+    font-family: Arial;
 
-            .div2 h1 {
-                /* Font settings */
-                text-align: center;
+    /* Proportions */
+    margin: 0 0 1vh 0;}
 
-                /* Proportions */
-                margin-bottom: 4vh;
-            }
+.content form #username, #email {
+    /* Font settings */
+    font-family: Arial;
+    /* Proportions */
+    height: auto;
+    margin: 0;
+    padding: 0.5vh 0.5vw;
+    width: 31vw;
+}
 
-            .div2 .form-text {padding-right: 2vw;}
+.content form #password {
+    /* Proportions */
+    height: auto;
+    margin: 0;
+    padding: 0.5vh 0.5vw;
+    width: 31vw;
+}
+.content form #submit {
+    /* Background settings */
+    background-color: #FFFFFF;
 
-                .div2 .input-text {
-                    /* Font settings */
-                    font-family: Comfortaa;
-                    font-size: 90%;
+    /* Border settings */
+    border: 3px solid #9932CC;
+    border-radius: 30px;
 
-                    /* Proportions */
-                    margin-top: -2vh;
-                    width: 100%;
-                }
+    /* Font settings */
+    font-family: ArialRounded;
+    font-size: 100%;
 
-            .div2 .form-submit {
-                /* Display settings */
-                justify-content: center;
-                display: flex;
+    /* Proportions */
+    height: auto;
+    margin: 0 0 2vh 0;
+    padding: 1vh 0;
+    width: 33vw;
+}
 
-                /* Proportions */
-                margin-top: 10vh;
-            }
+.content form #submit:disabled {
+    /* Border settings */
+    border: 3px solid #9370DB;
+    
+    /* Font settings */
+    color: #CECECE;
+}
 
-                .div2 .input-submit {
-                    /* Background settings */
-                    background-color: rgba(0, 0, 0, 0);
+.content form .centerer {
+    /* Font-settings */
+    text-align: center;
 
-                    /* Border settings */
-                    border: 2px solid #000000;
-                    border-radius: 2%;
-
-                    /* Font settings */
-                    font-family: Comfortaa;
-                    font-weight: bold;
-
-                    /* Proportions */
-                    padding: 1vh 1vw;
-                }
-            
-            .div2 a {
-                /* Font settings */
-                font-size: 80%;
-                text-align: right;
-            }
-
-            .div2 .input-submit {
-                /* Background settings */
-                background-color: rgba(0, 0, 0, 0);
-
-                /* Border settings */
-                border: 2px solid #000000;
-                border-radius: 20px;
-
-                /* Font settings */
-                font-family: Comfortaa;
-                font-weight: bold;
-
-                /* Proportions */
-                padding: 1vh 1vw;
-            }
+    /* Proportions */
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 33vw;
+}

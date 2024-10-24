@@ -1,112 +1,114 @@
 body {
-    /* Proportions */
     margin: 0;
     padding: 0;
 }
 
-@font-face {
-    font-family: Comfortaa;
-    src: url("../media/Comfortaa.ttf");
+.content {
+    /* Display settings */
+    display: flex;
+
+    /* Proportions */
+    height: 60vh;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
 }
+
+.content-1 {
+    /* Display settings */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
-    .div1 {
-        /* Background settings */
-        background-color: #FDFDFD;
+    /* Proportions */
+    height: 60vh;
+    margin: 0 0 0 1vw;
+    padding: 0;
+    width: 59vw;
+}
 
-        /* Display settings */
-        display: flex;
+.content-1 h1, h2 {font-family: ArialRounded;}
+.content-1 p {font-family: Arial}
 
-        /* Proportions */
-        height: 60vh;
-        width: 100vw;
-    }
+.content-2 {
+    /* Display settings */
+    align-items: end;
+    display: flex;
+    justify-content: center;
 
-        .div1-1 {
-            /* Font settings */
-            font-family: Comfortaa;
+    /* Proportions */
+    height: 60vh;
+    margin: 0 1vw 0 0;
+    padding: 0;
+    width: 39vw;
+}
 
-            /* Proportions */
-            height: 43vh;
-            margin: 0;
-            padding: 16vh 1vw 1vh 1vw;
-            width: 58vw;
-        }
+.content-2 img {
+    /* Proportions */
+    height: 50vh;
+    width: auto;
+}
 
-            p {text-align: justify;}
+.footer {
+    /* Background settings */
+    background-color: #9932CC;
 
-        .div1-2 {
-            /* Display settings */
-            align-items: end;
-            display: flex;
-            justify-content: center;
+    /* Proportions */
+    height: 30vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
 
-            /* Proportions */
-            height: 60vh;
-            width: 40vw;
-        }
-        
-            .div1-2 img {
-                /* Proportions */
-                height: 50vh;
-                width: auto;
-            }
+.footer .footer-1 {
+    /* Display settings */
+    align-items: center;
+    display: flex;
+    justify-content: center;
 
-    .div2 {
-        /* Background settings */
-        background-color: #DA70D6;
+    /* Proportions */
+    height: 12vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
 
-        /* Display settings */
-        display: flex;
+.footer .footer-1 a {
+    /* Font settings */
+    color: #FFFFFF;
+    font-family: ArialRounded;
+    text-decoration: none;
+}
 
-        /* Proportions */
-        height: 30vh;
-        width: 100vw;
-    }
+.footer .footer-2 {
+    /* Display settings */
+    align-items: start;
+    display: flex;
+    justify-content: center;
 
-        .div2-1 {
-            /* Display settings */
-            align-items: center;
-            display: flex;
-            justify-content: center;
-            text-align: center;
-            
-            /* Font settings */
-            font-family: Comfortaa;
+    /* Proportions */
+    height: 7vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
 
-            /* Proportions */
-            height: 26vh;
-            margin: 0;
-            padding: 2vh 2vw;
-            width: 61vw;
-        }
+.footer .footer-2 button {
+    /* Background settings */
+    background-color: #9932CC;
+    
+    /* Border settings */
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
 
-        .div2-2 {
-            /* Display settings */
-            align-items: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+    /* Font settings */
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    font-weight: bold;
 
-            /* Proportions */
-            height: 30vh;
-            width: 35vw;
-        }
-            
-            .div2-2 span {height: 2vh;}
-
-            .div2-2 button {
-                /* Background settings */
-                background-color: rgba(0, 0, 0, 0);
-
-                /* Border settings */
-                border: 3px solid #000000;
-                border-radius: 30px;
-
-                /* Font settings */
-                font-family: Comfortaa;
-                font-size: 14pt;
-                font-weight: bold;
-
-                /* Proportions */
-                padding: 1vh 1vw;
-            }
+    /* Proportions */
+    height: auto;
+    padding: 1vh 1vw;
+    margin: 0 1vw;
+    width: auto;
+}
