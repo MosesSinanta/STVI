@@ -344,8 +344,6 @@ body {
     width: 80%;
 }
 
-.board .board-2 .board-2-4 #checkout:hover {cursor: pointer}
-
 .board .board-2 .board-2-4 #checkout:disabled {
     /* Background settings */
     background-color: #9370DB;

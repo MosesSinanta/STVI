@@ -1,0 +1,197 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    /* Display settings */
+    display: flex;
+    
+    /* Proportions */
+    height: 90vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.receipt {
+    /* Border settings */
+    border: 2px solid #CECECE;
+
+    /* Font settings */
+    font-family: Arial;
+
+    /* Proportions */
+    height: 80vh;
+    margin: 3vh 2vw;
+    padding: 2vh 1vw;
+    width: 34vw;
+}
+
+.receipt .table-container {
+    /* Proportions */
+    height: 90%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.receipt table {width: 100%}
+.receipt table td {height: 3vh}
+.receipt table .td-1 {width: 5%}
+
+.receipt table .td-2 {
+    /* Proportions */
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+}
+
+.receipt table .td-3 {
+    /* Font settings */
+    text-align: right;
+
+    /* Proportions */
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+}
+
+.receipt .total {
+    /* Display settings */
+    align-items: center;
+    display: flex;
+
+    /* Font settings */
+    font-family: ArialRounded;
+    font-size: 200%;
+
+    /* Proportions */
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.receipt .total .left {
+    /* Proportions */
+    width: 30%;
+    text-align: left
+}
+.receipt .total .right {
+    width: 70%;
+    text-align: right;
+}
+
+.payment {
+    /* Proportions */
+    height: 80vh;
+    margin: 4vh 0 0 0;
+    padding: 0 2vw;
+    width: 56vw;
+}
+
+.payment h1 {
+    /* Font settings */
+    font-family: Arial;
+    font-size: 150%;
+    
+    /* Proportions */
+    margin: 0 0 2vh 0;
+    padding: 0;
+}
+
+.payment .card {
+    /* Border settings */
+    border: 2px solid #CECECE;
+
+    /* Display setings */
+    align-items: center;
+    display: flex;
+
+    /* Font settings */
+    font-family: Arial;
+
+    /* Proportions */
+    height: 5vh;
+    margin: 0 2vw 4vh 0;
+    padding: 0.5vh 1vw;
+    width: 20vw;
+}
+
+.payment .card img {
+    /* Proportions */
+    height: 100%;
+    margin: 0 1vw;
+    padding: 0;
+    width: auto;
+}
+
+.container {display: flex}
+
+.payment .pay {
+    /* Display settings */
+    display: flex;
+    justify-content: right;
+
+    /* Proportions */
+    height: auto;
+    width: 100%;
+}
+
+.payment .pay .back {
+    /* Border settings */
+    background-color: #FFFFFF;
+    border: 2px solid #9932CC;
+    border-radius: 10px;
+    
+    /* Font settings */
+    color: #9932CC;
+    font-family: ArialRounded;
+    font-size: 90%;
+    font-weight: bold;
+    
+    /* Proportions */
+    height: auto;
+    margin: 0 2vw 0 0;
+    padding: 1vh 2vw;
+    width: auto;
+}
+
+.payment .pay .back:hover {cursor: pointer}
+
+.payment .pay #pay{
+    /* Background settings */
+    background-color: #9932CC;
+    
+    /* Border settings */
+    border: 2px solid #9932CC;
+    border-radius: 10px;
+    
+    /* Font settings */
+    color: #FFFFFF;
+    font-family: ArialRounded;
+    font-size: 90%;
+    font-weight: bold;
+    
+    /* Proportions */
+    height: auto;
+    margin: 0;
+    padding: 1vh 2vw;
+    width: auto;
+}
+
+.payment .pay #pay:hover {cursor: pointer}
+
+.payment .pay #pay:disabled {
+    /* Background settings */
+    background-color: #9370DB;
+
+    /* Border settings */
+    border: 3px solid #9370DB;
+    
+    /* Font settings */
+    color: #CECECE;
+}
